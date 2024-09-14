@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-rick-and-morty",
+  "version": "1.0.0",
+  "description": "Aplicación de autenticación y API de Rick and Morty",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "bcrypt": "^5.0.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
